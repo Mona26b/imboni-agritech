@@ -1,0 +1,12 @@
+dataset,indicator,average_percentage,maximum_percentage,minimum_percentage
+seed_sources_crop.csv,government_minagri_rab_,26.248125,80.0,0.0
+seed_sources_crop.csv,recognized_seed_multipliers,24.6375,100.0,0.0
+seed_sources_crop.csv,agro_dealers,11.64875,53.87,0.0
+seed_sources_crop.csv,ngos__companies,16.991875,64.71,0.0
+seed_sources_crop.csv,market,10.752500000000001,66.67,0.0
+seed_sources_crop.csv,agriculture_cooperative,7.73625,48.03,0.0
+seed_sources_crop.csv,other_source,1.980625,14.29,0.0
+seed_sources_crop.csv,total,100.0,100.0,100.0
+seed_type.csv,traditional_seeds,90.96352941176471,99.99,42.5
+seed_type.csv,improved_seeds,9.036470588235295,57.5,0.01
+seed_type.csv,total,100.0,100.0,100.0

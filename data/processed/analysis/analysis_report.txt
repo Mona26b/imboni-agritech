@@ -1,0 +1,26 @@
+IMBONI AGRITECH
+AGRICULTURAL DATA ANALYSIS REPORT
+============================================================
+
+Analysis datasets generated: 15
+
+Generated files:
+----------------------------------------
+agricultural_practices_analysis.csv | 5 rows | 5 columns
+crop_production_analysis.csv | 27 rows | 5 columns
+erosion_analysis.csv | 6 rows | 5 columns
+fertilizer_analysis.csv | 39 rows | 5 columns
+fertilizer_type_analysis.csv | 7 rows | 4 columns
+improved_seed_analysis.csv | 3 rows | 5 columns
+inorganic_fertilizer_analysis.csv | 9 rows | 4 columns
+irrigation_analysis.csv | 2 rows | 5 columns
+organic_fertilizer_analysis.csv | 9 rows | 4 columns
+pesticide_analysis.csv | 17 rows | 5 columns
+pesticide_type_analysis.csv | 8 rows | 4 columns
+production_use_analysis.csv | 11 rows | 5 columns
+seed_analysis.csv | 11 rows | 5 columns
+seed_type_analysis.csv | 3 rows | 4 columns
+water_source_analysis.csv | 6 rows | 5 columns
+
+============================================================
+Analysis stage completed.

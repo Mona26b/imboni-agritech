@@ -1,0 +1,266 @@
+IMBONI AGRITECH - NISR SEASON B 2026 TABLE SUMMARY
+Total tables: 33
+
+TABLE 1: Table 1 | Rows: 18 | Columns: 10
+    Row 1: Table 1: List of Rwanda Land cover classes
+    Row 2: No | Land cover class name | Area (Ha) | Percentage share | Area (Ha) | Percentage share
+    Row 3: 1 | Agricultural land on hills | 1307955.9620492554 | 51.67072143051556 | 1322537 | 52.1
+    Row 4: 2 | Non-rice Agricultural Wetland | 56905.31930931396 | 2.248041208772266 | 57235 | 2.3
+    Row 5: 3 | Mixed rangeland | 127640.22414143066 | 5.0424193599050735 | 22688 | 0.9
+    Row 6: 4 | Low density builtup area | 95739.86821153565 | 3.782197722010335 | 35445 | 1.4
+
+TABLE 2: Table 2 | Rows: 9 | Columns: 4
+    Row 1: Table 2: List of strata
+    Row 2: Stratum code | Stratum name | Definition
+    Row 3: 1 | Dominant hill crop land | Clusters with Hillside agricultural land cover class greater or equal to 60% of the total area of the cluster
+    Row 4: 2 | Dominant Wetland crops | Clusters with non-rice wetland land cover class greater than 25% of total area of the cluster
+    Row 5: 3 | Dominant rangeland | Clusters with rangeland land cover class greater or equal to 60% of the total area of the cluster
+    Row 6: 4 | Mixed stratum | The rest of other possible combinations
+
+TABLE 3: Table 3 | Rows: 35 | Columns: 8
+    Row 1: Table 3: Number of segments (Population size) per district by stratum
+    Row 2: District             Stratum | Dominant hill crop land | Dominant wetland crops | Dominant rangeland | Mixed stratum | Excluded statum | Total
+    Row 3: Nyarugenge | 534 | 238 | 168 | 524 | 1464
+    Row 4: Gasabo | 2165 | 283 | 697 | 1632 | 4777
+    Row 5: Kicukiro | 461 | 179 | 233 | 1000 | 1873
+    Row 6: Nyanza | 5688 | 520 | 500 | 744 | 7452
+
+TABLE 4: Table 4 | Rows: 36 | Columns: 7
+    Row 1: Table 4: Allocation of 1200 sampled segments per district by stratum
+    Row 2: Stratum
+    Row 3: District | Dominant hill crop land | Dominant wetland crops | Dominant rangeland | Mixed stratum | Total
+    Row 4: Nyarugenge | 12 | 6 | - | 2 | 20
+    Row 5: Gasabo | 22 | 4 | - | 3 | 29
+    Row 6: Kicukiro | 13 | 5 | - | 2 | 20
+
+TABLE 5: Table 5 | Rows: 20 | Columns: 11
+    Row 1: Table5:2026 Season B_ Sampling errors of total areas for major crops at the national level
+    Row 2: Crop name | Estimate | SE | CV | 95% Confidence Interval | DEFF | No. observations (plots)
+    Row 3: Lower | Upper
+    Row 4: Maize | 94823 | 4246.456 | 0.045 | 86491 | 103156 | 0.248 | 4006
+    Row 5: Sorghum | 103139 | 4957.385 | 0.048 | 93412 | 112866 | 0.998 | 2005
+    Row 6: Paddy rice | 17534 | 68.615 | 0.004 | 17399 | 17669 | 0 | 2596
+
+TABLE 6: Table 6 | Rows: 33 | Columns: 14
+    Row 1: Table 6: 2026 Season B_Cultivated area, harvested area, production and yield by crop
+    Row 2: Crop/Groups | Cultivated Crop area (Ha) | Harvested Crop area (Ha) | Production (MT) | Yield (MT/ha)
+    Row 3: 2026 B | 2025 B | 2024 B | 2026 B | 2025 B | 2024 B | 2026 B | 2025 B | 2024 B | 2026 B | 2025 B | 2024 B
+    Row 4: Cereals | 229328.4442229954 | 231223.55310500006 | 243759.78363299998 | 229203.68808250662 | 231198.2008607 | 243132.1631184 | 338540.0379677742 | 330446.29119206086 | 346827.0585417247 | (NA) | (NA) | (NA)
+    Row 5: Maize | 94823.39510000001 | 93004.99 | 92943.75 | 94705.56907976576 | 92978.831099 | 92748.791176 | 122370.3260885097 | 117710.62025771625 | 119101.22948988932 | 1.2921133073541144 | 1.265993762950008 | 1.2841270272071035
+    Row 6: Sorghum | 103138.87558999998 | 107195.15083999999 | 120004.99717 | 103136.1969650008 | 107195.15083999999 | 120004.85261140001 | 122319.83129863408 | 125655.5902792073 | 140313.90201543417 | 1.186002925240139 | 1.1722133818045692 | 1.169235234760039
+
+TABLE 7: Table 7 | Rows: 35 | Columns: 12
+    Row 1: Table 7: 2026 Season B_Agricultural land use per district (,000Ha)
+    Row 2: District | Total land area | Agricultural land | % of agricultural land | Arable land | Physical cultivated land | Area under seasonal crops | Area under permanent crops | Temporary fallow land | Temporarily meadow and pasture | Area under permanent pasture
+    Row 3: Nyarugenge | 13.094142307934574 | 7.852658 | 59.97077025229499 | 5.6651549999999995 | 6.683858 | 4.56756 | 3.308656 | 1.097595 | 0 | 0.07120474
+    Row 4: Gasabo | 42.710230252148435 | 20.64365 | 48.33420442391919 | 18.17134 | 18.36347 | 15.97512 | 9.886199000000001 | 1.890362 | 0.3494622 | 0.04036229
+    Row 5: Kicukiro | 16.562534364404296 | 5.471424 | 33.034944288230555 | 4.390778 | 4.46663 | 3.385984 | 2.301698 | 0.9533513 | 0.05144267 | 0
+    Row 6: Nyanza | 67.04278783349609 | 47.29768 | 70.54849824781454 | 45.87308 | 42.102309999999996 | 40.90708 | 15.02539 | 4.7939799999999995 | 0.2293623 | 0.1720218
+
+TABLE 8: Table 8 | Rows: 37 | Columns: 7
+    Row 2: Table 8: | Area under agricultural practices (Ha)
+    Row 3: District | Modern irrigated agricultural land | Agricultural area under erosion control | Agricultural area under agroforestry trees | Agricultural area under fertilizer application
+    Row 4: Inorganic fertilizer | Organic fertilizer
+    Row 5: Nyarugenge | 16.31062 | 5213.603 | 4765.674 | 398.0933 | 3233.389
+    Row 6: Gasabo | 349.4346 | 15099.51 | 11123.06 | 5280.549 | 10237.98
+    Row 7: Kicukiro | 24.40747 | 2997.678 | 2996.438 | 475.3367 | 1591.376
+
+TABLE 9: Table 9 | Rows: 37 | Columns: 30
+    Row 1: Table 9: 2026 Season B_Cultivated area by crop type and district (Ha)
+    Row 2: District/Crop | Cereals | Maize | Sorghum | Paddy rice | Wheat | Other cereals | Tubers and Roots | Cassava | Sweet potato | Irish potato | Yams & Taro | Banana | Cooking banana | Dessert banana | Banana for beer | Legumes and Pulses | Bean | Bush bean | Climbing bean | Pea | Groundnuts | Soybean | Vegetables and Fruits | vegetables | Fruits | Fodder crops | Other crops | Total Developed land
+    Row 3: Nyarugenge | 843.4091000000001 | 574.4233 | 268.9858 | 2876.70425 | 523.4514 | 212.3749 | 22.41695 | 2118.461 | 1876.1861 | 512.9494 | 505.5191 | 857.7176 | 2359.6098899999997 | 2166.426 | 2166.426 | 38.90739 | 154.2765 | 108.72764102777255 | 103.23822702777255 | 5.489414 | 1217.824 | 9282.460981027773
+    Row 4: Gasabo | 4784.795628 | 1274.728 | 3191.877 | 312.1009 | 6.089728 | 7136.631200000001 | 5060.5 | 1522.492 | 386.9124 | 166.7268 | 4688.438 | 1826.656 | 1129.51 | 1732.272 | 4299.10929 | 3828.4329 | 3514.56 | 313.8729 | 20.49489 | 116.2404 | 333.9411 | 778.1905469864304 | 737.0069469864304 | 41.1836 | 323.0102 | 1078.102 | 23088.276864986427
+    Row 5: Kicukiro | 1084.8685 | 497.9247 | 484.8376 | 102.1062 | 1429.2029 | 1006.88 | 147.0157 | 275.3072 | 1099.7146 | 450.205 | 169.2929 | 480.2167 | 1420.99112 | 1345.715 | 1345.715 | 75.27612 | 268.6108547321839 | 144.8304547321839 | 123.7804 | 51.30425 | 80.70915 | 5435.401374732183
+    Row 6: Nyanza | 9190.043800000001 | 2962.119 | 5303.252 | 687.9765 | 236.6963 | 12705.3254 | 9496.865 | 2129.052 | 253.4845 | 825.9239 | 7456.678 | 2652.864 | 1333.653 | 3470.161 | 17542.3463 | 14135.135 | 11638.4 | 2496.735 | 210.3886 | 975.7617 | 2221.061 | 777.856372285998 | 486.57807228599796 | 291.2783 | 160.5536 | 1695.232 | 49528.03547228601
+
+TABLE 10: Table 10 | Rows: 37 | Columns: 30
+    Row 1: Table 10: 2026 Season B_Harvested area by crop type and district (Ha)
+    Row 2: District/Crop | Cereals | Maize | Sorghum | Paddy rice | Wheat | Other cereals | Tubers and Roots | Cassava | Sweet potato | Irish potato | Yams & Taro | Banana | Cooking banana | Dessert banana | Banana for beer | Legumes and Pulses | Bean | Bush bean | Climbing bean | Pea | Groundnuts | Soybean | Vegetables and Fruits | vegetables | Fruits | Fodder crops | Other crops | Total Developed land
+    Row 3: Nyarugenge | 843.4091462478546 | 574.4233 | 268.9858462478545 | 0 | 0 | 0 | 431.9373057657393 | 230.08193877519886 | 161.14037797929404 | 22.41694562380418 | 18.29804338744225 | 751.0934476630237 | 177.28280942946228 | 182.28928589987288 | 391.5213523336885 | 2359.60988455454 | 2166.426 | 2166.426 | 0 | 0 | 38.90739121022767 | 154.27649334431237 | 103.23822702777255 | 103.23822702777255 | 0 | 0 | 2.88194206461485 | 4492.169953323545
+    Row 4: Gasabo | 4782.114765849827 | 1274.728211109817 | 3189.1959056061805 | 312.1009215358645 | 0 | 6.089727597964398 | 2465.884663819479 | 597.3121619715391 | 1338.5892234389323 | 386.91236147967635 | 143.07091692933113 | 1586.3738102502566 | 549.2427814137066 | 443.54096853707233 | 593.5900602994778 | 4299.109722448622 | 3828.433325851666 | 3514.560471452488 | 313.872854399178 | 20.494890460879418 | 116.24042855063453 | 333.9410775854421 | 746.3199347427392 | 737.0069469864304 | 9.31298775630877 | 304.9554595766049 | 237.26651382978895 | 14422.024870517318
+    Row 5: Kicukiro | 1084.868533701977 | 497.9247 | 484.837627575466 | 102.1062061265111 | 0 | 0 | 450.5396901399422 | 95.64892442960789 | 121.74507893122325 | 0 | 233.1456867791111 | 425.86178573054286 | 134.63638977374154 | 95.13919652482103 | 196.08619943198028 | 1420.991395512345 | 1345.7152722749931 | 1345.7152722749931 | 0 | 0 | 0 | 75.27612323735178 | 154.3260922906795 | 144.8304547321839 | 9.495637558495583 | 51.30424718816994 | 17.46690541397458 | 3605.3586499776306
+    Row 6: Nyanza | 9190.044891712043 | 2962.119585175812 | 5303.252484567202 | 687.9765195503848 | 0 | 236.6963024186443 | 5606.106601032255 | 2477.9989444855805 | 2071.711320604178 | 253.48449581847314 | 802.9118401240232 | 2380.410968982232 | 706.4996406094673 | 547.3585756927388 | 1126.552752680026 | 17542.345249254075 | 14135.13395992176 | 11638.398487649858 | 2496.7354722719037 | 210.38861268040375 | 975.7616881189163 | 2221.060988532992 | 590.8874868454666 | 486.57807228599796 | 104.30941455946859 | 160.55362405949927 | 989.4817289848202 | 36459.8305508704
+
+TABLE 11: Table 11 | Rows: 37 | Columns: 29
+    Row 1: Table 11: | Season B 2026_Average yield by crop type and district (Kg/Ha)
+    Row 2: District | Cereals | Maize | Sorghum | Paddy rice | Wheat | Other cereals | Tubers and Roots | Cassava | Sweet potato | Irish potato | Yams & Taro | Banana | Cooking banana | Dessert banana | Banana for beer | Legumes and Pulses | Bean | Bush bean | Climbing bean | Pea | Groundnuts | Soybean | Vegetables and Fruits | vegetables | Fruits | Fodder crops | Other crops
+    Row 3: Nyarugenge | 1193.5486816260889 | 797.4588607702027 | 0 | 0 | 0 | 11617.16 | 6960.2654516018965 | 2870.5785050136533 | 8350.3271484375 | 11794.981935940681 | 16531.5444128229 | 8790.430970104608 | 11049.138443147107 | 605.1451128836393 | 605.1451128836393 | 0 | 0 | 550.2250529420896 | 343.0567215327512 | 7996.38311799238 | 0 | 0 | 2811.3840000000005
+    Row 4: Gasabo | 1319.3652446808653 | 1041.5188366675122 | 4136.719602257371 | 0 | 523.6547123999284 | 11834.525254420976 | 6828.6392871201515 | 3570.2413761776747 | 3606.918399916982 | 12465.286610306895 | 17353.238359722178 | 11949.30368198928 | 8328.06664868684 | 649.1720909259166 | 647.2398493861231 | 670.8081758624614 | 630.8276482034746 | 438.5379513297681 | 347.9652790702821 | 9557.456192696176 | 846.8818177772453 | 6405.659697750034 | 2987.235754374784
+    Row 5: Kicukiro | 746.9253218678505 | 1230.2657735912085 | 5582.422671681304 | 0 | 0 | 13329.175085325858 | 6756.501440389897 | 0 | 5562.133524142089 | 12564.007080381249 | 16575.593069537947 | 11606.416343542263 | 10274.192484325184 | 622.904591931326 | 622.904591931326 | 0 | 0 | 0 | 490.3608406040627 | 8195.764989179293 | 12311.586975417196 | 4934.339677771752 | 2887.026611328125
+    Row 6: Nyanza | 1317.0366359240875 | 1094.9836253900746 | 4648.3665771913875 | 0 | 683.6433850482193 | 14779.382445758842 | 8853.581703006968 | 4208.871355762435 | 6451.568803878552 | 9803.5252825141 | 11263.600733588522 | 9904.062469254755 | 8839.014148703107 | 626.3959462392392 | 590.6487187708557 | 793.0297297241722 | 882.5297763820394 | 480.7635395104137 | 366.5788270116361 | 7048.410620635831 | 3556.064896460937 | 8509.621717696702 | 2076.6726147683025
+
+TABLE 12: Table 12 | Rows: 35 | Columns: 29
+    Row 1: Table 12: | Season B 2026_Average yield of large-scale farmers by crop type and district (Kg/Ha)
+    Row 2: District/Crop | Cereals | Maize | Sorghum | Paddy rice | Wheat | Other cereals | Tubers and Roots | Cassava | Sweet potato | Irish potato | Yams & Taro | Bananas | Cooking banana | Dessert banana | Banana for beer | Legumes and Pulses | Bean | Bush bean | Climbing bean | Pea | Groundnuts | Soybean | Vegetables and Fruits | vegetables | Fruits | Fodder crops | Other crops
+    Row 3: Nyarugenge | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+    Row 4: Gasabo | 2181.0446935183245 | 0 | 4136.719602257371 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5925.725910873717 | 846.8818177772453 | 17975.624385562336 | 617.1753649791998
+    Row 5: Kicukiro | 0 | 0 | 5582.422671681304 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 721.9408623362042 | 0 | 6586.70879171549 | 880.7391215767983 | 0
+    Row 6: Nyanza | 1571.9654574829392 | 0 | 4845.445406123823 | 0 | 0 | 0 | 0 | 15958.042237301159 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9380.92469396052 | 782.1469455516182 | 0 | 763.3407289502727
+
+TABLE 13: Table 13 | Rows: 37 | Columns: 29
+    Row 1: Table 13: | Season B 2026_Crop production by crop type and district (MT)
+    Row 2: District | Cereals | Maize | Sorghum | Paddy rice | Wheat | Other Cereals | Tubers and Roots | Cassava | Sweet potato | Irish potato | Yams & Taro | Bananas | Cooking Banana | Dessert banana | Banana for beer | Legumes and Pulses | Bean | Bush bean | Climbing bean | Pea | Groundnuts | Soybean | Vegetables and Fruits | Vegetables | Fruits | Fodder crops | Other crops
+    Row 3: Nyarugenge | 900.1073189224303 | 685.6021724103074 | 214.50514651212296 | 0 | 0 | 0 | 4011.6227522862387 | 2672.8986958616892 | 1121.5798057073514 | 64.34960225575216 | 152.7946484614463 | 8859.133647388771 | 2930.758637713174 | 1602.4013842924955 | 4325.9736253831015 | 1385.3355157288063 | 1311.002106324051 | 1311.002106324051 | 0 | 0 | 21.407821388486116 | 52.92558801626912 | 825.5324157363451 | 825.5324157363451 | 0 | 0 | 8.102245809385156
+    Row 4: Gasabo | 6297.702622218155 | 1681.8320981525055 | 3321.607609511743 | 1291.074 | 0 | 3.188914553905953 | 18107.064470790472 | 7068.905865624973 | 9140.742960490748 | 1381.3705219093536 | 516.0451227653984 | 19774.604215854055 | 9531.140903228836 | 5300.005728453129 | 4943.457584172092 | 2665.41655031655 | 2485.3120671135866 | 2274.7635902013303 | 210.54847691225655 | 12.92874354962439 | 50.97583939828955 | 116.19990025504909 | 7051.798609535562 | 7043.911609535562 | 7.887 | 1953.4408970186973 | 708.7710134282047
+    Row 5: Kicukiro | 1538.3917057687097 | 371.9125668134528 | 596.4791389552569 | 570 | 0 | 0 | 3394.2795020477615 | 1274.9212604453453 | 822.5708011591915 | 0 | 1296.7874404432248 | 5350.530491182342 | 2231.67800924124 | 1104.2251254571622 | 2014.6273564839407 | 875.1646856002907 | 838.2522225322078 | 838.2522225322078 | 0 | 0 | 0 | 36.912463068082836 | 1303.902737949406 | 1186.9963702609496 | 116.90636768845656 | 253.15258253879676 | 50.42742074769591
+    Row 6: Nyanza | 13067.977566359465 | 3901.220013664805 | 5806.974631910316 | 3197.9670593704654 | 0 | 161.81586141387902 | 61212.28415634181 | 36623.29410073913 | 18342.065442013554 | 1066.8836335802544 | 5180.040980008872 | 23336.4191171912 | 7957.729870248823 | 5421.073526743193 | 9957.615720199183 | 10323.169402142194 | 8854.190612043594 | 6874.205155275053 | 1979.985456768541 | 185.6742153021642 | 469.11064289870654 | 814.1939318977292 | 3800.533099954455 | 3429.602052469137 | 370.9310474853176 | 1366.2506061516265 | 2054.8296093963672
+
+TABLE 14: Table 14 | Rows: 25 | Columns: 13
+    Row 1: Table 14: 2026 Season B_The Use of production by farmers (in percentage)
+    Row 2: Crops | Sold | Own consumption | Wages for hired labour | Farm rent | Offered as gift | Barter trade/Exchanged with other things | Seeds | Fodder purpose | Stored | Post harvesting losses | Other usage
+    Row 3: Maize | 35.27825 | 49.32595 | 1.7845799999999998 | 3.5581300000000002 | 6.55358 | 0.05823999999999999 | 0.6927 | 0.97126 | 1.142 | 0.41314000000000006 | 0.22215999999999997
+    Row 4: Sorghum | 54.60575 | 28.843249999999998 | 0.9506199999999999 | 2.13583 | 7.68794 | 0.0634 | 3.56789 | 0.07527 | 0.97215 | 0.7290300000000001 | 0.36887000000000003
+    Row 5: Paddy rice | 82.53833 | 16.6892 | 0 | 0 | 0 | 0 | 0 | 0 | 0.000567 | 0.43661000000000005 | 0.33528
+    Row 6: Wheat | 54.185280000000006 | 28.028 | 0.51337 | 0 | 6.58682 | 0.058980000000000005 | 8.4797 | 0.17841 | 0.10146000000000001 | 0.48702 | 1.38097
+
+TABLE 15: Table 15 | Rows: 39 | Columns: 4
+    Row 2: Table 15: 2026 Season B_Cultivated area by cropping system and district (Percentage)
+    Row 3: District | Cropping system
+    Row 4: Pure Cropping | Mixed Cropping
+    Row 5: Nyarugenge | 36.05174959043201 | 63.94825040956798
+    Row 6: Gasabo | 28.42072834131266 | 71.57927700258591
+    Row 7: Kicukiro | 35.605821331350775 | 64.39415653531937
+
+TABLE 16: Table 16 | Rows: 37 | Columns: 12
+    Row 2: Table 16: 2026 Season B_Sowing dates by district (Percentage)
+    Row 4: District | Before January | Between 01-15/01 | Between 16-31/01 | Between 01-15/02 | Between 16-28/02 | Between 01-15/03 | Between 16-31/03 | After 31/03 | Other season | Total
+    Row 5: Nyarugenge | 0.85 | 0.78 | 0.43 | 8.82 | 24.06 | 29.48 | 0 | 3.78 | 31.8 | 100
+    Row 6: Gasabo | 4.44 | 11.3 | 3.84 | 24.46 | 9.2 | 6.41 | 2.3 | 2.25 | 35.8 | 100
+    Row 7: Kicukiro | 6 | 1.57 | 3.16 | 24.55 | 10.11 | 9.18 | 2.62 | 0 | 42.81 | 100
+    Row 8: Nyanza | 7.48 | 5.18 | 3.54 | 33.4 | 13.57 | 6.6 | 2.4 | 2.49 | 25.34 | 100
+
+TABLE 17: Table 17 | Rows: 26 | Columns: 12
+    Row 2: Table 17: 2026 Season B_Sowing date by crops (Percentage)
+    Row 3: Crops | Before January | Between 01-15/01 | Between 16-31/01 | Between 01-15/02 | Between 16-28/02 | Between 01-15/03 | Between 16-31/03 | After 31/03 | Other season | Total
+    Row 4: Maize | 1.2 | 4.14 | 4.33 | 35.51 | 34.05 | 16.25 | 3.55 | 0.98 | 0 | 100
+    Row 5: Sorghum | 8.09 | 43.78 | 23 | 17.98 | 5.57 | 1.02 | 0.57 | 0 | 0 | 100
+    Row 6: Paddy rice | 36.13 | 14.14 | 9.5 | 16.4 | 7.59 | 6.78 | 5.97 | 3.49 | 0 | 100
+    Row 7: Wheat | 0.71 | 0.63 | 0 | 1.45 | 1.96 | 20.99 | 20.64 | 53.62 | 0 | 100
+
+TABLE 18: Table 18 | Rows: 37 | Columns: 11
+    Row 2: Table 18: 2026 Season B_Use of seeds by farmer type per district (Percentage)
+    Row 3: District | Percentage of farmers who used improved seeds | Percentage of sampled plots in which improved seeds was used | Percentage of land size in which improved seeds were used
+    Row 4: Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF
+    Row 5: Nyarugenge | 21.05 | 21.05 | 0 | 8.09 | 8.09 | 0 | 11.83859532873069 | 11.83859532873069
+    Row 6: Gasabo | 25.66 | 23.53 | 66.67 | 21.63 | 21.62 | 50 | 24.693265036616115 | 23.07217057024023 | 82.82688885447058
+    Row 7: Kicukiro | 8.7 | 8.15 | 33.33 | 6.26 | 6.26 | 50 | 8.332427547220167 | 5.763438986181392 | 88.36042107890744
+
+TABLE 19: Table 19 | Rows: 21 | Columns: 5
+    Row 1: Table 19: 2026 Season B_Seed type by crops (Percentage)
+    Row 2: Crop | Traditional seeds | Improved seeds | Total
+    Row 3: Maize | 42.5 | 57.5 | 100
+    Row 4: Paddy rice | 91.57 | 8.43 | 100
+    Row 5: Wheat | 89.03 | 10.97 | 100
+    Row 6: Irish potato | 98.01 | 1.99 | 100
+
+TABLE 20: Table 20 | Rows: 37 | Columns: 10
+    Row 1: Table 20: 2026 Season B_Percentage of farmers by source of improved seeds per district
+    Row 2: District | Sources of improved seeds
+    Row 3: Government (MINAGRI/ | Recognized seed multipliers | Agro- dealers | NGOs/  companies | Market | Agriculture cooperative | Other sources | Total
+    Row 5: Nyarugenge | 0 | 0 | 100 | 0 | 0 | 0 | 0 | 100
+    Row 6: Gasabo | 5.26 | 10.53 | 63.16 | 7.89 | 5.26 | 7.89 | 0 | 100
+    Row 7: Kicukiro | 14.29 | 14.29 | 57.14 | 0 | 0 | 14.29 | 0 | 100
+
+TABLE 21: Table 21 | Rows: 20 | Columns: 10
+    Row 1: Table 21: 2026 Season B_Percentage of crops by source of seeds
+    Row 2: Crop | Government (MINAGRI/RAB/ | Recognized seed multipliers | Agro dealers | NGOs/  companies | Market | Agriculture cooperative | Other source | Total
+    Row 3: Maize | 0.71 | 1.91 | 42.87 | 49.23 | 3.53 | 1.74 | 0 | 100
+    Row 4: Paddy rice | 2.36 | 46.46 | 2.36 | 0 | 0.79 | 48.03 | 0 | 100
+    Row 5: Wheat | 23.53 | 5.88 | 0 | 64.71 | 5.88 | 0 | 0 | 100
+    Row 6: Irish potato | 25 | 49.07 | 2.78 | 7.41 | 9.26 | 6.48 | 0 | 100
+
+TABLE 22: Table 22 | Rows: 36 | Columns: 11
+    Row 1: Table 22: 2026 Season B_Use of organic fertilizer by farmer type per district (Percentage)
+    Row 2: District | Percentage of farmers who applied organic fertilizer | Percentage of plots in which organic fertilizer was applied | Percentage of land size in which organic fertilizer was applied
+    Row 3: Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF
+    Row 4: Nyarugenge | 64.66 | 64.66 | 78.12 | 78.12 | 82.96644407238485 | 82.96644407238485
+    Row 5: Gasabo | 77.63 | 78.55 | 60 | 76.43 | 76.44 | 53.49 | 77.74391841352889 | 77.9767599037378 | 55.03346442697361
+    Row 6: Kicukiro | 47.83 | 47.41 | 66.67 | 89.13 | 89.13 | 100 | 81.90050744701655 | 80.68874630381603 | 100
+
+TABLE 23: Table 23 | Rows: 36 | Columns: 11
+    Row 1: Table 23: 2026 Season B_Use of Inorganic fertilizer by farmer type per district (Percentage)
+    Row 2: Percentage of farmers who applied inorganic fertilizer | Percentage of plots in which inorganic fertilizer was applied | Percentage of land under which inorganic fertilizer was applied
+    Row 3: District | Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF
+    Row 4: Nyarugenge | 34.59 | 34.59 | 37.55 | 37.55 | 37.30056837240854 | 37.30056837240854
+    Row 5: Gasabo | 42.43 | 40.14 | 86.67 | 61.77 | 61.77 | 60.87 | 68.11655129765309 | 66.99697373647838 | 85.68761005708271
+    Row 6: Kicukiro | 20.29 | 19.26 | 66.67 | 59.12 | 59.11 | 100 | 51.70241504403448 | 44.31798787503347 | 100
+
+TABLE 24: Table 24 | Rows: 35 | Columns: 9
+    Row 1: Table 24: 2026 Season B_Percentage of farmers by source of inorganic fertilizers per district
+    Row 2: District | Government (MINAGRI/RAB/NAEB) | Agro-dealers | NGOs/  companies | Market | Agricultural cooperative | Other source | Total
+    Row 3: Nyarugenge | 0 | 89.13 | 0 | 6.52 | 4.35 | 0 | 100
+    Row 4: Gasabo | 0 | 73.64 | 19.38 | 3.1 | 3.88 | 0 | 100
+    Row 5: Kicukiro | 0 | 96.43 | 3.57 | 0 | 0 | 0 | 100
+    Row 6: Nyanza | 0.44 | 13.72 | 74.34 | 4.87 | 6.19 | 0.44 | 100
+
+TABLE 25: Table 25 | Rows: 21 | Columns: 9
+    Row 1: Table 25: 2026 Season B_Source of inorganic fertilizer by type of fertilizer
+    Row 2: Fertilizer name | Government (MINAGRI/RAB/NAEB) | Agro-deal | NGOs | Market | Agricultural cooperative | Other source | Total
+    Row 3: NPK 17-17-17; | 0.6 | 50.75 | 40.28 | 4.85 | 3.23 | 0.3 | 100
+    Row 4: NPK 20-10-10; | 3.45 | 31.03 | 58.62 | 0 | 6.9 | 0 | 100
+    Row 5: NPK 25-5-5; | 0 | 61.54 | 30.77 | 7.69 | 0 | 0 | 100
+    Row 6: NPK 22-6-12; | 3.33 | 38.33 | 53.33 | 3.33 | 1.67 | 0 | 100
+
+TABLE 26: Table 26 | Rows: 35 | Columns: 9
+    Row 1: Table 26: 2026 Season B_Percentage of plots by type of inorganic fertilizer per district
+    Row 2: District | NPK | Urea | DAP | DI Grow | Lime | Others | Total
+    Row 3: Nyarugenge | 24.14 | 52.65 | 23.22 | 0 | 0 | 0 | 100
+    Row 4: Gasabo | 25.83 | 48.16 | 25.58 | 0.43 | 0 | 0 | 100
+    Row 5: Kicukiro | 29.59 | 41.92 | 28.5 | 0 | 0 | 0 | 100
+    Row 6: Nyanza | 10.42 | 58.17 | 30.74 | 0 | 0.47 | 0.2 | 100
+
+TABLE 27: Table 27 | Rows: 36 | Columns: 11
+    Row 1: Table 27: 2026 Season B_Use of pesticides by farmer type per district (Percentage)
+    Row 2: Percentage of farmers who used pesticides | Percentage of plots in which pesticides were used | Percentage of land size in which pesticides were used
+    Row 3: District | Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF
+    Row 4: Nyarugenge | 29.32 | 29.32 | 34.45 | 34.45 | 33.56812847260295 | 33.56812847260295
+    Row 5: Gasabo | 38.16 | 35.29 | 93.33 | 49.49 | 49.48 | 61.7 | 57.30256012218794 | 54.82596152808941 | 88.72807119788304
+    Row 6: Kicukiro | 12.32 | 11.11 | 66.67 | 47 | 46.97 | 100 | 46.58814574221385 | 34.50254290620321 | 100
+
+TABLE 28: Table 28 | Rows: 35 | Columns: 10
+    Row 1: Table 28: 2026 Season B_Percentage of plots by type of pesticides per district
+    Row 2: District | Dithane | Ridomil | Dimethoate | Cypermetrin | Rocket | Beam | Other pesticide | Total
+    Row 3: Nyarugenge | 42.11 | 0 | 5.26 | 0 | 47.37 | 0 | 5.26 | 100
+    Row 4: Gasabo | 13.82 | 0 | 9.76 | 10.57 | 47.97 | 3.25 | 14.63 | 100
+    Row 5: Kicukiro | 14.29 | 0 | 0 | 14.29 | 50 | 0 | 21.43 | 100
+    Row 6: Nyanza | 8.93 | 1.79 | 1.79 | 4.46 | 73.21 | 3.57 | 6.25 | 100
+
+TABLE 29: Table 29 | Rows: 36 | Columns: 14
+    Row 1: Table 29: 2026 Season B_Percentage of farmers who practiced agricultural practices
+    Row 2: District | Farmers who protected land against erosion  (%) | Farmers who used any mechanical equipment for agriculture activities %) | Farmers who practiced irrigation (%) | Farmers who practiced agroforestry (%)
+    Row 3: Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF | Overall | SSF | LSF
+    Row 4: Nyarugenge | 80.45 | 80.45 | 0 | 0 | 8.21 | 8.21 | 57.07 | 57.07
+    Row 5: Gasabo | 89.8 | 89.62 | 93.33 | 0.66 | 0 | 13.33 | 18.24 | 16.44 | 53.33 | 54.27 | 53.89 | 62.5
+    Row 6: Kicukiro | 73.91 | 73.33 | 100 | 0 | 0 | 0 | 6.94 | 5.71 | 50 | 46.94 | 46.63 | 66.67
+
+TABLE 30: Table 30 | Rows: 36 | Columns: 8
+    Row 1: Table 30: 2026 Season B_Percentage of plots by types of irrigation used
+    Row 2: District | Modern irrigation | Traditional techniques
+    Row 3: Surface irrigation | Flood irrigation | Drip irrigation | Sprinkler irrigation | Pivot irrigation
+    Row 4: Nyarugenege | 33.33 | 0 | 0 | 0 | 0 | 66.67
+    Row 5: Gasabo | 3.23 | 16.13 | 16.13 | 3.23 | 0 | 61.29
+    Row 6: Kicukiro | 33.33 | 0 | 0 | 0 | 0 | 66.67
+
+TABLE 31: Table 31 | Rows: 35 | Columns: 8
+    Row 1: Table 31: 2026 Season B_Percentage of plots by source of water used and district
+    Row 2: District | Rainwater | Water treatment | Underground | Lake / streams | Water catchment | Others
+    Row 3: Nyarugenge | 0 | 66.67 | 0 | 33.33 | 0 | 0
+    Row 4: Gasabo | 3.03 | 12.12 | 51.52 | 21.21 | 12.12 | 0
+    Row 5: Kicukiro | 14.29 | 0 | 28.57 | 57.14 | 0 | 0
+    Row 6: Nyanza | 4.44 | 0 | 24.44 | 53.33 | 17.78 | 0
+
+TABLE 32: Table 32 | Rows: 37 | Columns: 6
+    Row 1: Table 32: Percentage of plots by categories of Erosion Control Measures per Districts
+    Row 3: District | Plots under erosion control measures | Categories of erosion control measures adopted
+    Row 4: Measures to control Low-rate erosion | Measures to control Moderate rate erosion | Measures to control Severe rate erosion
+    Row 5: Nyarugenge | 60.95 | 16.6 | 3.54 | 40.81
+    Row 6: Gasabo | 69.23 | 20.41 | 12.3 | 36.51
+    Row 7: Kicukiro | 40.04 | 23.76 | 5.11 | 11.17
+
+TABLE 33: Table 33 | Rows: 35 | Columns: 6
+    Row 1: Table 33: 2026 Season B_Percentage of plots by degree of erosion per district
+    Row 2: Severe (Rill erosion, Gully erosion, Mass movement/Landslides) | Moderate (Diffuse overland flow erosion, overland flow erosion) | Low (wind erosion) | Very Low (splash erosion)
+    Row 3: Nyarugenge | 0.13 | 14.19 | 4.89 | 80.79
+    Row 4: Gasabo | 0.33 | 5.14 | 22.58 | 71.95
+    Row 5: Kicukiro | 0.39 | 0.34 | 1.66 | 97.61
+    Row 6: Nyanza | 0.71 | 7.23 | 52.62 | 39.44

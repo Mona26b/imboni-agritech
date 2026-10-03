@@ -1,0 +1,7 @@
+dataset,indicator,average_percentage,maximum_percentage,minimum_percentage
+erosion_degree.csv,severe_rill_erosion_gully_erosion_mass_movement_landslides,1.4332258064516126,6.43,0.0
+erosion_degree.csv,moderate_diffuse_overland_flow_erosion_overland_flow_erosion,10.253225806451614,26.14,0.34
+erosion_degree.csv,low_wind_erosion,36.92516129032259,68.51,1.66
+erosion_degree.csv,very_low_splash_erosion,51.38870967741935,97.61,27.12
+erosion_control.csv,plots_under_erosion_control_measures,74.94064516129032,93.34,40.04
+erosion_control.csv,categories_of_erosion_control_measures_adopted,42.26677419354839,73.03,16.6

@@ -1,0 +1,44 @@
+district,dominant_crop,dominant_crop_area_ha,top_production_crop,top_crop_production_mt,erosion_protection_percent,mechanization_percent,irrigation_percent,agroforestry_percent,improved_seed_use_percent,organic_fertilizer_use_percent,inorganic_fertilizer_use_percent,pesticide_use_percent,erosion_control_percent,erosion_degree_average_percent,seed_gap_component,inorganic_fertilizer_gap_component,irrigation_gap_component,mechanization_gap_component,observed_input_gap_index,agricultural_profile
+2025B,,,tubers_and_roots,1937089.59,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Bugesera,unnamed_29,62962.92,bananas,57666.97,81.28,0.73,18.58,69.93,45.14,76.2,59.22,25.98,51.18,25.0,0.38,0.44,0.3,0.97,52.28,Low mechanization adoption
+Burera,unnamed_29,31753.83,tubers_and_roots,64734.59,99.16,0.42,5.01,56.18,12.79,85.74,63.1,50.52,88.7,25.0,0.91,0.38,0.88,0.99,78.75,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+Cereals,,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Change,,,paddy_rice,0.1,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Gakenke,unnamed_29,47497.77,tubers_and_roots,94380.13,99.17,0.42,5.37,51.63,12.89,98.54,82.95,59.25,86.68,25.0,0.9,0.1,0.86,0.99,71.18,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+Gasabo,unnamed_29,23088.28,bananas,19774.6,89.8,0.66,18.24,54.27,25.66,77.63,42.43,38.16,69.23,25.0,0.7,0.68,0.32,0.98,66.7,Low mechanization adoption; Lower inorganic-fertilizer adoption
+Gatsibo,unnamed_29,76939.56,bananas,104771.24,96.37,3.35,11.76,67.43,23.6,82.68,67.6,43.02,87.93,25.0,0.73,0.32,0.59,0.88,62.96,Low mechanization adoption
+Gicumbi,unnamed_29,49380.42,tubers_and_roots,65504.89,98.87,0.19,8.91,54.43,11.44,97.37,60.98,50.09,91.65,25.0,0.93,0.41,0.71,0.99,76.13,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+Gisagara,unnamed_29,48553.57,tubers_and_roots,89396.57,94.8,0.0,24.56,53.17,19.8,80.0,39.6,30.4,68.02,25.0,0.79,0.72,0.05,1.0,63.99,Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Huye,unnamed_29,37606.15,tubers_and_roots,55333.55,93.47,0.23,25.67,46.45,16.89,90.09,36.49,30.41,84.69,25.0,0.84,0.77,0.0,0.99,64.91,Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Kamonyi,unnamed_29,62841.14,tubers_and_roots,65488.99,95.49,0.94,19.96,52.06,20.49,87.22,35.9,36.65,82.07,25.0,0.78,0.78,0.24,0.97,69.09,Low mechanization adoption; Lower inorganic-fertilizer adoption
+Karongi,unnamed_29,41181.9,tubers_and_roots,78058.32,96.38,0.0,14.22,50.18,12.9,95.02,64.48,25.34,74.19,25.0,0.9,0.36,0.49,1.0,68.81,Low mechanization adoption; Low improved-seed adoption
+Kayonza,unnamed_29,77729.59,tubers_and_roots,69260.47,88.97,3.04,17.45,58.6,33.08,72.62,58.94,43.54,63.86,25.0,0.57,0.44,0.35,0.89,56.45,Low mechanization adoption
+Kicukiro,unnamed_29,5435.4,bananas,5350.53,73.91,0.0,6.94,46.94,8.7,47.83,20.29,12.32,40.04,25.0,0.97,1.0,0.79,1.0,94.16,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Kirehe,unnamed_29,76077.51,bananas,100139.8,82.9,0.69,13.76,68.74,8.41,50.07,43.31,22.76,58.57,25.0,0.98,0.67,0.51,0.98,78.14,Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+LSF,,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Large scale farmer (LSF),unnamed_29,24880.88,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Muhanga,unnamed_29,48353.12,tubers_and_roots,96624.9,96.77,0.23,14.32,59.36,10.14,91.47,39.4,23.96,88.88,25.0,0.95,0.72,0.48,0.99,78.66,Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Musanze,unnamed_29,24691.65,tubers_and_roots,62539.09,94.76,0.24,3.53,50.38,11.67,87.86,74.76,77.62,66.55,25.0,0.92,0.22,0.94,0.99,76.73,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+National,,,,,92.73,1.83,13.08,57.99,20.9,,,,,,0.77,,0.53,0.94,74.73,Low mechanization adoption
+Ngoma,unnamed_29,61794.67,bananas,102665.38,80.0,0.16,5.92,61.29,10.39,48.53,28.68,16.9,54.52,25.0,0.94,0.88,0.84,0.99,91.39,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Ngororero,unnamed_29,38639.0,tubers_and_roots,67236.79,98.77,0.0,4.46,60.22,24.07,97.53,81.07,49.38,93.34,25.0,0.72,0.12,0.9,1.0,68.63,Low irrigation adoption; Low mechanization adoption
+Nyabihu,unnamed_29,26047.85,tubers_and_roots,84385.82,98.49,0.0,4.52,70.38,40.2,96.73,89.7,78.64,87.61,25.0,0.46,0.0,0.9,1.0,58.88,Low irrigation adoption; Low mechanization adoption
+Nyagatare,unnamed_29,84416.84,bananas,70793.66,80.89,28.2,11.37,67.99,68.26,59.48,74.88,30.35,62.76,25.0,0.0,0.21,0.61,0.0,20.51,Multiple agricultural practices observed
+Nyamagabe,unnamed_29,42654.33,tubers_and_roots,87152.84,97.28,0.0,8.99,43.33,16.1,96.6,70.29,51.47,79.89,25.0,0.85,0.28,0.71,1.0,70.96,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+Nyamasheke,unnamed_29,43498.97,tubers_and_roots,93028.39,98.71,0.0,13.71,62.79,7.31,90.32,70.75,27.31,79.73,25.0,0.99,0.27,0.51,1.0,69.37,Low mechanization adoption; Low improved-seed adoption
+Nyanza,unnamed_29,49528.04,tubers_and_roots,61212.28,97.12,0.0,22.13,57.37,27.52,87.41,40.65,39.57,83.68,25.0,0.66,0.71,0.15,1.0,63.04,Low mechanization adoption; Lower inorganic-fertilizer adoption
+Nyarugenege,,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Nyarugenge,unnamed_29,9282.46,bananas,8859.13,80.45,0.0,8.21,57.07,21.05,64.66,34.59,29.32,60.95,25.0,0.77,0.79,0.74,1.0,82.63,Low irrigation adoption; Low mechanization adoption; Lower inorganic-fertilizer adoption
+Nyaruguru,unnamed_29,37596.83,tubers_and_roots,85018.58,99.71,0.0,23.93,44.79,6.98,97.97,83.72,47.09,89.03,25.0,1.0,0.09,0.07,1.0,54.0,Low mechanization adoption; Low improved-seed adoption
+Rubavu,unnamed_29,27238.15,tubers_and_roots,75679.57,94.21,0.0,2.1,54.14,25.26,66.32,70.79,74.21,76.93,25.0,0.7,0.27,1.0,1.0,74.35,Low irrigation adoption; Low mechanization adoption
+Ruhango,unnamed_29,51715.08,tubers_and_roots,129843.85,95.31,0.38,14.58,48.77,14.63,85.18,28.52,27.2,78.75,25.0,0.88,0.88,0.47,0.99,80.34,Low mechanization adoption; Low improved-seed adoption; Lower inorganic-fertilizer adoption
+Rulindo,unnamed_29,34263.38,tubers_and_roots,48479.08,96.55,0.31,19.08,54.68,14.42,95.61,68.03,57.37,85.64,25.0,0.88,0.31,0.28,0.99,61.48,Low mechanization adoption; Low improved-seed adoption
+Rusizi,unnamed_29,46900.16,tubers_and_roots,131674.06,92.23,0.2,16.27,63.29,6.97,75.7,66.53,21.91,61.83,25.0,1.0,0.33,0.4,0.99,68.14,Low mechanization adoption; Low improved-seed adoption
+Rutsiro,unnamed_29,30219.74,tubers_and_roots,58435.92,98.44,0.26,5.78,51.91,13.28,96.88,64.58,35.68,71.54,25.0,0.9,0.36,0.84,0.99,77.34,Low irrigation adoption; Low mechanization adoption; Low improved-seed adoption
+Rwamagana,unnamed_29,46998.74,bananas,71296.17,90.62,0.8,14.42,71.23,24.15,74.65,49.7,37.92,76.56,25.0,0.72,0.58,0.48,0.97,68.62,Low mechanization adoption; Lower inorganic-fertilizer adoption
+S/Total,,,tubers_and_roots,1945916.02,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+SSF,,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Small scale farmers (SSF),unnamed_29,1320006.25,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+"Source: NISR, SAS 2025",,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+"Source: NISR, SAS 2026",,,,,,,,,,,,,,,,,,,,Multiple agricultural practices observed
+Total,unnamed_29,1344887.02,,,,,,,,81.34,57.5,39.1,78.16,25.0,,0.46,,,46.39,Multiple agricultural practices observed

@@ -1,0 +1,6 @@
+dataset,indicator,average_percentage,maximum_percentage,minimum_percentage
+agricultural_practices.csv,area_under_agricultural_practices_ha,1647.6065325806453,25537.9,0.0
+agricultural_practice_rates.csv,farmers_who_protected_land_against_erosion_percent,92.69709677419354,99.71,73.91
+agricultural_practice_rates.csv,farmers_who_used_any_mechanical_equipment_for_agriculture_activities_percent,1.3961290322580642,28.2,0.0
+agricultural_practice_rates.csv,farmers_who_practiced_irrigation_percent,12.800967741935484,25.67,2.1
+agricultural_practice_rates.csv,farmers_who_practiced_agroforestry_percent,56.99967741935484,71.23,43.33

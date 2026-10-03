@@ -1,0 +1,45 @@
+IMBONI AGRITECH
+DISTRICT AGRICULTURAL INTELLIGENCE REPORT
+============================================================
+
+Districts analyzed: 43
+Indicators generated: 21
+
+DATA SOURCES
+------------------------------------------------------------
+NISR Seasonal Agricultural Survey Season B 2026 cleaned datasets.
+
+MAIN INDICATORS
+------------------------------------------------------------
+- dominant_crop
+- dominant_crop_area_ha
+- top_production_crop
+- top_crop_production_mt
+- erosion_protection_percent
+- mechanization_percent
+- irrigation_percent
+- agroforestry_percent
+- improved_seed_use_percent
+- organic_fertilizer_use_percent
+- inorganic_fertilizer_use_percent
+- pesticide_use_percent
+- erosion_control_percent
+- erosion_degree_average_percent
+- seed_gap_component
+- inorganic_fertilizer_gap_component
+- irrigation_gap_component
+- mechanization_gap_component
+- observed_input_gap_index
+- agricultural_profile
+
+IMPORTANT INTERPRETATION NOTE
+------------------------------------------------------------
+The observed input gap index is a descriptive data-derived indicator.
+It summarizes relative differences between districts in selected agricultural input/practice indicators.
+It should not be interpreted as a causal prediction of agricultural failure.
+
+OUTPUT FILES
+------------------------------------------------------------
+district_intelligence.csv
+district_priority_indicators.csv
+intelligence_report.txt
