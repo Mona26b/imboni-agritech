@@ -6,10 +6,9 @@ function formatNumber(n) {
   return n.toLocaleString('en-US')
 }
 
-function StatCard({ label, value, sub, icon }) {
+function StatCard({ label, value, sub }) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <div className="text-3xl mb-2">{icon}</div>
+    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-farm-green">
       <div className="text-3xl font-bold text-farm-green mb-1">{value}</div>
       <div className="text-sm font-semibold text-farm-dark">{label}</div>
       {sub && <div className="text-xs text-gray-500 mt-1">{sub}</div>}
@@ -44,40 +43,36 @@ function DashboardPage() {
   return (
     <main className="max-w-6xl mx-auto px-6 py-12">
       <div className="mb-10">
-        <h1 className="text-4xl font-bold text-farm-dark mb-2">📊 National Dashboard</h1>
+        <h1 className="text-4xl font-bold text-farm-dark mb-2">National Dashboard</h1>
         <p className="text-gray-600">
           Season B 2026 · Data collected {surveyInfo.dataCollectionStart} – {surveyInfo.dataCollectionEnd}
         </p>
       </div>
 
       <section className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-        <StatCard icon="🗺️" value={surveyInfo.districts} label="Districts covered" />
-        <StatCard icon="📍" value={formatNumber(surveyInfo.segments)} label="Sampled segments" />
-        <StatCard icon="👨‍🌾" value={surveyInfo.largeScaleFarmers} label="Large-scale farmers" />
-        <StatCard icon="📅" value="Season B" label="2026 agricultural season" />
+        <StatCard value={surveyInfo.districts} label="Districts covered" />
+        <StatCard value={formatNumber(surveyInfo.segments)} label="Sampled segments" />
+        <StatCard value={surveyInfo.largeScaleFarmers} label="Large-scale farmers" />
+        <StatCard value="Season B" label="2026 agricultural season" />
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-farm-dark mb-4">🌍 Land Use</h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <h2 className="text-2xl font-bold text-farm-dark mb-4 border-b-2 border-farm-green pb-2 inline-block">Land Use</h2>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-4">
           <StatCard
-            icon="🌱"
             value={`${(overview.totalLand / 1000000).toFixed(3)}M ha`}
             label="Total land area"
           />
           <StatCard
-            icon="🌾"
             value={`${(overview.agriculturalLand / 1000000).toFixed(3)}M ha`}
             label="Agricultural land"
             sub={`${overview.agriculturalPercent}% of total`}
           />
           <StatCard
-            icon="🌿"
             value={`${(overview.seasonalCropsLand / 1000000).toFixed(3)}M ha`}
             label="Seasonal crops"
           />
           <StatCard
-            icon="🌳"
             value={`${(overview.permanentCropsLand / 1000000).toFixed(3)}M ha`}
             label="Permanent crops"
           />
@@ -85,16 +80,16 @@ function DashboardPage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-farm-dark mb-4">📊 Visualizations</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <h2 className="text-2xl font-bold text-farm-dark mb-4 border-b-2 border-farm-green pb-2 inline-block">Visualizations</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-4">
           <CropChart />
           <PracticesChart />
         </div>
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-farm-dark mb-4">🚜 Farming Practices Detail</h2>
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <h2 className="text-2xl font-bold text-farm-dark mb-4 border-b-2 border-farm-green pb-2 inline-block">Farming Practices Detail</h2>
+        <div className="bg-white p-6 rounded-lg shadow-md mt-4">
           <PracticeBar label="Organic fertilizer" value={farmingPractices.organicFertilizer.overall} ssf={farmingPractices.organicFertilizer.ssf} lsf={farmingPractices.organicFertilizer.lsf} />
           <PracticeBar label="Inorganic fertilizer" value={farmingPractices.inorganicFertilizer.overall} ssf={farmingPractices.inorganicFertilizer.ssf} lsf={farmingPractices.inorganicFertilizer.lsf} />
           <PracticeBar label="Improved seeds" value={farmingPractices.improvedSeeds.overall} ssf={farmingPractices.improvedSeeds.ssf} lsf={farmingPractices.improvedSeeds.lsf} />
@@ -106,8 +101,8 @@ function DashboardPage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-farm-dark mb-4">🌾 Top Crops by Area</h2>
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+        <h2 className="text-2xl font-bold text-farm-dark mb-4 border-b-2 border-farm-green pb-2 inline-block">Top Crops by Area</h2>
+        <div className="bg-white rounded-lg shadow-md overflow-hidden mt-4">
           <table className="w-full">
             <thead className="bg-farm-dark text-white">
               <tr>

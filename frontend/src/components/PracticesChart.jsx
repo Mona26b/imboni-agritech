@@ -1,4 +1,4 @@
-import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts'
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts'
 import { farmingPractices } from '../data/nationalStats'
 
 const COLORS = ['#16a34a', '#3b82f6', '#eab308', '#f97316', '#a855f7', '#06b6d4', '#6b7280']
@@ -17,7 +17,7 @@ function PracticesChart() {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md">
       <h3 className="text-xl font-bold text-farm-dark mb-4">
-        🚜 Farming Practices Adoption (%)
+        Farming Practices Adoption (%)
       </h3>
       <ResponsiveContainer width="100%" height={350}>
         <PieChart>

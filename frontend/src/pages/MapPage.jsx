@@ -44,8 +44,8 @@ function MapPage() {
       ? '<div style="font-family: sans-serif; padding: 4px;">' +
         '<strong style="color: #14532d; font-size: 14px;">' + district.name + '</strong><br/>' +
         '<span style="color: #666; font-size: 11px;">' + district.province + ' Province</span><br/>' +
-        '<span style="font-size: 12px;">🌾 ' + district.agriPercent.toFixed(1) + '% agricultural</span><br/>' +
-        '<span style="font-size: 12px;">🌱 ' + district.seasonalCrops.toFixed(1) + 'k ha seasonal crops</span>' +
+        '<span style="font-size: 12px;">' + district.agriPercent.toFixed(1) + '% agricultural</span><br/>' +
+        '<span style="font-size: 12px;">' + district.seasonalCrops.toFixed(1) + 'k ha seasonal crops</span>' +
         '</div>'
       : '<strong>' + feature.properties.shapeName + '</strong>'
 
@@ -68,7 +68,7 @@ function MapPage() {
   return (
     <main className="max-w-6xl mx-auto px-6 py-12">
       <div className="mb-6">
-        <h1 className="text-4xl font-bold text-farm-dark mb-2">🗺️ Interactive Map</h1>
+        <h1 className="text-4xl font-bold text-farm-dark mb-2">Interactive Map</h1>
         <p className="text-gray-600">Click a district to see its agricultural profile</p>
       </div>
 
