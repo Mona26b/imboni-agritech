@@ -17,15 +17,15 @@ function DistrictDetailPage() {
   }
 
   const stats = [
-    { label: 'Total land area', value: `${district.totalLand.toFixed(2)}k ha`, icon: '🌍' },
-    { label: 'Agricultural land', value: `${district.agriLand.toFixed(2)}k ha`, icon: '🌾' },
-    { label: '% agricultural', value: `${district.agriPercent.toFixed(1)}%`, icon: '📊' },
-    { label: 'Seasonal crops', value: `${district.seasonalCrops.toFixed(2)}k ha`, icon: '🌱' },
-    { label: 'Permanent crops', value: `${district.permanentCrops.toFixed(2)}k ha`, icon: '🌳' },
-    { label: 'Erosion control', value: `${district.erosionControl.toFixed(1)}%`, icon: '⛰️' },
-    { label: 'Agroforestry', value: `${district.agroforestry.toFixed(1)}%`, icon: '🌲' },
-    { label: 'Organic fertilizer', value: `${district.organicFert.toFixed(1)}%`, icon: '♻️' },
-    { label: 'Inorganic fertilizer', value: `${district.inorganicFert.toFixed(1)}%`, icon: '🧪' },
+    { label: 'Total land area', value: `${district.totalLand.toFixed(2)}k ha` },
+    { label: 'Agricultural land', value: `${district.agriLand.toFixed(2)}k ha` },
+    { label: '% agricultural', value: `${district.agriPercent.toFixed(1)}%` },
+    { label: 'Seasonal crops', value: `${district.seasonalCrops.toFixed(2)}k ha` },
+    { label: 'Permanent crops', value: `${district.permanentCrops.toFixed(2)}k ha` },
+    { label: 'Erosion control', value: `${district.erosionControl.toFixed(1)}%` },
+    { label: 'Agroforestry', value: `${district.agroforestry.toFixed(1)}%` },
+    { label: 'Organic fertilizer', value: `${district.organicFert.toFixed(1)}%` },
+    { label: 'Inorganic fertilizer', value: `${district.inorganicFert.toFixed(1)}%` },
   ]
 
   return (
@@ -48,8 +48,7 @@ function DistrictDetailPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {stats.map((s) => (
-          <div key={s.label} className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl mb-2">{s.icon}</div>
+          <div key={s.label} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-farm-green">
             <div className="text-2xl font-bold text-farm-green mb-1">{s.value}</div>
             <div className="text-sm text-farm-dark font-medium">{s.label}</div>
           </div>
@@ -57,7 +56,7 @@ function DistrictDetailPage() {
       </div>
 
       <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-        <h2 className="text-xl font-bold text-farm-dark mb-3">📖 About this data</h2>
+        <h2 className="text-xl font-bold text-farm-dark mb-3">About this data</h2>
         <p className="text-gray-600 text-sm">
           Data comes from the NISR Seasonal Agricultural Survey (SAS) 2026 Season B,
           collected between April 19 and June 28, 2026. Percentages reflect the share
