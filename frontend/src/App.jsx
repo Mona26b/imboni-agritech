@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage'
 import DashboardPage from './pages/DashboardPage'
 import MapPage from './pages/MapPage'
 import DistrictsPage from './pages/DistrictsPage'
+import DistrictDetailPage from './pages/DistrictDetailPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/map" element={<MapPage />} />
             <Route path="/districts" element={<DistrictsPage />} />
+            <Route path="/districts/:districtName" element={<DistrictDetailPage />} />
           </Routes>
         </div>
         <Footer />
