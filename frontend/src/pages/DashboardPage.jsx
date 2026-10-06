@@ -1,4 +1,6 @@
 import { overview, surveyInfo, farmingPractices, topCrops } from '../data/nationalStats'
+import CropChart from '../components/CropChart'
+import PracticesChart from '../components/PracticesChart'
 
 function formatNumber(n) {
   return n.toLocaleString('en-US')
@@ -83,44 +85,23 @@ function DashboardPage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-farm-dark mb-4">🚜 Farming Practices</h2>
+        <h2 className="text-2xl font-bold text-farm-dark mb-4">📊 Visualizations</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <CropChart />
+          <PracticesChart />
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-farm-dark mb-4">🚜 Farming Practices Detail</h2>
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <PracticeBar
-            label="Organic fertilizer"
-            value={farmingPractices.organicFertilizer.overall}
-            ssf={farmingPractices.organicFertilizer.ssf}
-            lsf={farmingPractices.organicFertilizer.lsf}
-          />
-          <PracticeBar
-            label="Inorganic fertilizer"
-            value={farmingPractices.inorganicFertilizer.overall}
-            ssf={farmingPractices.inorganicFertilizer.ssf}
-            lsf={farmingPractices.inorganicFertilizer.lsf}
-          />
-          <PracticeBar
-            label="Improved seeds"
-            value={farmingPractices.improvedSeeds.overall}
-            ssf={farmingPractices.improvedSeeds.ssf}
-            lsf={farmingPractices.improvedSeeds.lsf}
-          />
-          <PracticeBar
-            label="Pesticides"
-            value={farmingPractices.pesticides.overall}
-            ssf={farmingPractices.pesticides.ssf}
-            lsf={farmingPractices.pesticides.lsf}
-          />
-          <PracticeBar
-            label="Agroforestry"
-            value={farmingPractices.agroforestry.overall}
-          />
-          <PracticeBar
-            label="Irrigation"
-            value={farmingPractices.irrigation.overall}
-          />
-          <PracticeBar
-            label="Mechanization"
-            value={farmingPractices.mechanization.overall}
-          />
+          <PracticeBar label="Organic fertilizer" value={farmingPractices.organicFertilizer.overall} ssf={farmingPractices.organicFertilizer.ssf} lsf={farmingPractices.organicFertilizer.lsf} />
+          <PracticeBar label="Inorganic fertilizer" value={farmingPractices.inorganicFertilizer.overall} ssf={farmingPractices.inorganicFertilizer.ssf} lsf={farmingPractices.inorganicFertilizer.lsf} />
+          <PracticeBar label="Improved seeds" value={farmingPractices.improvedSeeds.overall} ssf={farmingPractices.improvedSeeds.ssf} lsf={farmingPractices.improvedSeeds.lsf} />
+          <PracticeBar label="Pesticides" value={farmingPractices.pesticides.overall} ssf={farmingPractices.pesticides.ssf} lsf={farmingPractices.pesticides.lsf} />
+          <PracticeBar label="Agroforestry" value={farmingPractices.agroforestry.overall} />
+          <PracticeBar label="Irrigation" value={farmingPractices.irrigation.overall} />
+          <PracticeBar label="Mechanization" value={farmingPractices.mechanization.overall} />
         </div>
       </section>
 
