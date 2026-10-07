@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { districts, provinces, provinceColors } from '../data/districts'
+import { districts, provinces, provinceColors, slugifyDistrictName } from '../data/districts'
 
 function DistrictsPage() {
   const [search, setSearch] = useState('')
   const [provinceFilter, setProvinceFilter] = useState('All')
 
+  const normalizedSearch = search.trim().toLowerCase()
+
   const filtered = districts.filter((d) => {
-    const matchesSearch = d.name.toLowerCase().includes(search.toLowerCase())
+    const matchesSearch = d.name.toLowerCase().includes(normalizedSearch)
     const matchesProvince = provinceFilter === 'All' || d.province === provinceFilter
     return matchesSearch && matchesProvince
   })
@@ -52,7 +54,7 @@ function DistrictsPage() {
         {filtered.map((district) => (
           <Link
             key={district.name}
-            to={`/districts/${district.name}`}
+            to={`/districts/${slugifyDistrictName(district.name)}`}
             className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all hover:-translate-y-1 border-t-4 border-farm-green"
           >
             <div className="flex items-start justify-between mb-3">

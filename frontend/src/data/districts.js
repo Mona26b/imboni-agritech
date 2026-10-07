@@ -45,6 +45,32 @@ export const districts = [
 
 export const provinces = ['Kigali', 'Southern', 'Western', 'Northern', 'Eastern']
 
+export function normalizeDistrictName(value) {
+  return String(value ?? '')
+    .trim()
+    .toLowerCase()
+}
+
+export function slugifyDistrictName(value) {
+  return normalizeDistrictName(value)
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+export function getDistrictByName(value) {
+  const normalized = normalizeDistrictName(value)
+
+  if (!normalized) {
+    return undefined
+  }
+
+  return districts.find((district) => {
+    const districtName = normalizeDistrictName(district.name)
+    const districtSlug = slugifyDistrictName(district.name)
+    return districtName === normalized || districtSlug === normalized
+  })
+}
+
 export const provinceColors = {
   'Kigali': 'bg-purple-100 text-purple-800',
   'Southern': 'bg-green-100 text-green-800',

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { useNavigate } from 'react-router-dom'
-import { districts } from '../data/districts'
+import { districts, slugifyDistrictName } from '../data/districts'
 
 const provinceColor = {
   Kigali: '#a855f7',
@@ -60,7 +60,7 @@ function MapPage() {
         e.target.setStyle({ weight: 1.5, color: '#ffffff', fillOpacity: 0.65 })
       },
       click: () => {
-        navigate('/districts/' + feature.properties.shapeName)
+        navigate(`/districts/${slugifyDistrictName(feature.properties.shapeName)}`)
       },
     })
   }

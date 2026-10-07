@@ -1,9 +1,9 @@
 import { useParams, Link } from 'react-router-dom'
-import { districts, provinceColors } from '../data/districts'
+import { provinceColors, getDistrictByName } from '../data/districts'
 
 function DistrictDetailPage() {
   const { districtName } = useParams()
-  const district = districts.find((d) => d.name === districtName)
+  const district = getDistrictByName(districtName)
 
   if (!district) {
     return (
