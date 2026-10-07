@@ -1,8 +1,8 @@
 function FeatureCards() {
   const cards = [
-    { title: '30 Districts', desc: 'Complete seasonal crop and land-use data' },
-    { title: '15+ Crops', desc: 'Maize, beans, cassava, banana, and more' },
-    { title: 'Interactive Map', desc: 'Visualize data district by district' },
+    { title: 'District coverage', desc: 'Agricultural indicators across all Rwanda districts.' },
+    { title: 'Crop indicators', desc: 'Area, production, and yield by crop and district.' },
+    { title: 'Practice trends', desc: 'Fertilizer, seed, irrigation, and land management patterns.' },
   ]
 
   return (
